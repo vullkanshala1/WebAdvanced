@@ -6,22 +6,23 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <fieldset>
+     <legend>personal information</legend>
     <form action="">
      <label for="firstname">FirstName:</label><br>
-     <input type="text" id="firstname" name="firstname"><br>
+     <input type="text" id="firstname" name="firstname" value="shupa" ><br>
 
 
      <label for="lastname">LastName:</label><br>
-     <input type="text" id="lastname" name="lastname"><br>
+     <input type="text" id="lastname" name="lastname" value="sallateg"><br>
 
 
 <label for="email">email:</label><br>
-     <input type="email" id="email" name="email"><br>
+     <input type="email" id="email" name="email" size="40" required><br>
 
 
 <label for="password">password:</label><br>
-     <input type="password" id="password" name="password"><br>
+     <input type="password" id="password" name="password" placeholder="password"><br>
 
 <label for="gender">Gender:</label><br>
 <input type="radio" id="male" name="gender" value="male">
@@ -41,7 +42,7 @@
 <input type="checkbox"id="swim" name="swim" value="swim">
 <label for="swim">swim:</label><br>
 
-<label for="pet">choose a pet:</label>
+<label for="pet">choose a pet:</label><br>
 <select name="pet" id="pet">
 <option value="Dog">Dog:</option>
 <option value="cat">cat:</option>
@@ -52,9 +53,16 @@
 </select>
 
 
-<textarea name="message" id="message" rows="10" cols="20"></textarea>
+<textarea name="message" id="message" rows="10" cols="20" maxlength="50"></textarea>
 
 <input type="submit"name="submit"id="submit">
+
+</fieldset>
+
+
+
+
+
 
 
 
