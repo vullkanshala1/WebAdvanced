@@ -1,0 +1,63 @@
+ul{
+list-style-type: circle;
+border: 2px solid grey;
+
+}
+
+
+ul li{
+padding:8px 16px;
+border-bottom: 1px solid black;
+color: green;}
+
+ol {
+background-color: #ffeeee;
+padding: 15px;
+
+
+
+}
+ol li{background-color: #ffe5e5;
+    padding: 10px;
+    margin-left: 30px;
+    color: red;
+
+
+
+
+}
+
+
+
+
+
+table{
+border-collapse: collapse;
+
+}
+
+td,th{
+border: 2px solid black;
+padding: 15px;
+}
+
+
+tbody tr:nth-child(odd){
+    background-color: #e495e4;
+}
+
+
+
+
+tbody tr:nth-child(even){
+    background-color: #ff33cc;
+}
+
+
+
+div {
+    overflow:scroll;
+    background-color:skyblue;
+width: 200px;
+height: 150px;
+}
