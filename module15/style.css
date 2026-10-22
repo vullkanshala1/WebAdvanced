@@ -1,0 +1,84 @@
+#static     {
+    position: static;
+padding: 25px;
+border: 3px solid black;
+height: 250px;
+width: 250px;
+
+
+}
+
+
+#relative   {
+    position: relative;
+padding: 25px;
+border: 3px solid blueviolet;
+height: 250px;
+width: 250px;
+top: 200px;
+left:200px;
+}
+
+#h1fixed{
+
+position: fixed;
+top: 20px;
+right: 200px;
+}
+
+
+
+#fixed{
+
+   
+position: fixed;
+padding: 20px;
+border: 3px solid black;
+height: 250px;
+width: 250px;
+right: 200;
+top:100;
+}
+
+
+#parent{
+
+
+position: relative;
+border: 3px solid black;
+height: 250px;
+width: 250px;
+
+
+}
+
+
+
+
+#absolute{
+
+position: absolute;
+border: 3px solid black;
+height: 100px;
+width: 100px;
+right: 80px;
+top:70px;
+background-color: blue;
+color: white;
+}
+
+
+#sticky{
+position: sticky;
+top: 0;
+background-color: blue;
+    padding: 20px;
+    color: white;
+}
+
+
+
+
+
+
+
