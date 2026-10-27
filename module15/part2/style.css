@@ -1,0 +1,78 @@
+body{
+margin: 0;
+
+}
+
+#horisontal-menu{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: black;
+}
+
+
+#horizontal-menu li a{
+display:block;
+color: white;
+padding: 14px 16px;
+text-decoration: none;
+
+
+
+
+}
+
+
+
+.active{
+    background-color: green;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    font-family: "Courier New" "courier" monospace;
+}
+.navbar a{
+float: left;
+color: white;
+font-size: 10px;
+text-decoration: none;
+padding: 14px 16px;
+text-align: center;
+}
+
+.dropdown{
+overflow: hidden;
+float: left;
+}
+
+
+
+.dropdown .dropbtn {
+border: none;
+outline: none;
+padding: 15px 16px;
+background-color: inherit;
+font-size: 16px;
+margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover.dropbtn{
+    background-color: limegreen;
+}
+
+.content{
+display: none;
+position: absolute;
+background-color: WHITE;
+width: 100%;
+left: 0;
+
+}
+
+.dropdown:hover.content{
+
+    display: block;
+}
