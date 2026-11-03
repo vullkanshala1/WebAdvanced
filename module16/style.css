@@ -1,0 +1,34 @@
+div.gallery{
+margin: 5px;
+border: 1px solid#ccc;
+float: left;
+width: 180px;
+}
+
+div.galleryimg {
+width: 100%;
+height: auto;
+}
+
+div.gallery:hover{
+    border: 1px solid red;
+}
+
+div.desc{
+text-align: center;
+padding: 15px;
+
+
+}
+
+p[class*="ds"]{
+background-color: blue;
+color: white;
+padding: 20px;
+}
+
+div[id~="ds"]{
+background-color: green;
+color: white;
+padding: 20px;
+}
